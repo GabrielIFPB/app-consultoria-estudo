@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SobreEmpresaActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre a Empresa"
+        android:textColor="#EC7148"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detalhe_empresa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <ScrollView
+        android:layout_width="324dp"
+        android:layout_height="502dp"
+        android:background="#00DFDDDD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.27">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" A partir do Android 3.0 (API nível 11), todas as atividades que usarem o tema padrão terão uma ActionBar como barra de apps. No entanto, os recursos da barra de apps foram gradualmente adicionados à ActionBar nativa em várias versões do Android. Consequentemente, a ActionBar nativa se comporta de forma diferente dependendo da versão do sistema Android usada pelo dispositivo. Por outro lado, os recursos mais recentes foram adicionados à versão da Toolbar da Biblioteca de Suporte, e eles estão disponíveis em qualquer dispositivo que use essa biblioteca.  Por esse motivo, use a classe Toolbar da Biblioteca de Suporte para implementar as barras de apps das suas atividades. O uso da barra de ferramentas da Biblioteca de Suporte ajuda a garantir que seu app tenha um comportamento consistente no conjunto mais amplo de dispositivos. Por exemplo, o widget Toolbar oferece uma experiência do Material Design em dispositivos com o Android 2.1 (API nível 7) ou posterior, mas a barra de ação nativa não é compatível com o Material Design, a menos que o dispositivo tenha o Android 5.0 (API nível 21) ou posterior.   A partir do Android 3.0 (API nível 11), todas as atividades que usarem o tema padrão terão uma ActionBar como barra de apps. No entanto, os recursos da barra de apps foram gradualmente adicionados à ActionBar nativa em várias versões do Android. Consequentemente, a ActionBar nativa se comporta de forma diferente dependendo da versão do sistema Android usada pelo dispositivo. Por outro lado, os recursos mais recentes foram adicionados à versão da Toolbar da Biblioteca de Suporte, e eles estão disponíveis em qualquer dispositivo que use essa biblioteca.  Por esse motivo, use a classe Toolbar da Biblioteca de Suporte para implementar as barras de apps das suas atividades. O uso da barra de ferramentas da Biblioteca de Suporte ajuda a garantir que seu app tenha um comportamento consistente no conjunto mais amplo de dispositivos. Por exemplo, o widget Toolbar oferece uma experiência do Material Design em dispositivos com o Android 2.1 (API nível 7) ou posterior, mas a barra de ação nativa não é compatível com o Material Design, a menos que o dispositivo tenha o Android 5.0 (API nível 21) ou posterior. " />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
