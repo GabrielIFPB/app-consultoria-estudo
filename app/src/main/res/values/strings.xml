@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Consultoria</string>
+    <string name="servico_tiulo">Serviços</string>
+    <string name="img_descrição">Ferramentas</string>
+    <string name="text_consultoria">Consultoria</string>
+    <string name="texto_processo">Processo</string>
+    <string name="texto_acompanhamento">Acompanhamento e Projetos</string>
+    <string name="texto_cliente">Nossos Clientes</string>
+    <string name="sys_descrição">Empresa de desenvolvimento de Sistemas</string>
+    <string name="rsm_descricao">Empresa de Auditoria</string>
 </resources>
