@@ -36,7 +36,8 @@
     <ScrollView
         android:layout_width="324dp"
         android:layout_height="502dp"
-        android:background="#00DFDDDD"
+        android:background="#ECECEC"
+        android:padding="@dimen/padding_5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
