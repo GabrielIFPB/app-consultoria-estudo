@@ -4,11 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 
 
-public class ClienteActivity extends Activity {
+public class ContatoActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cliente);
+        setContentView(R.layout.activity_contato);
     }
 }
